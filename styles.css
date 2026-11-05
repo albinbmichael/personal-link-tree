@@ -21,6 +21,7 @@ body {
   border-radius: 16px;
   max-width: calc(100% - 40px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .profile-img {
@@ -33,23 +34,26 @@ body {
 }
 
 h2 {
-  color: #3730a3;
-  font-size: 22px;
+  color: #0974e6;
+  font-size: 18px;
   margin-bottom: 15px;
+  text-align: center;
 }
-
-.about h3 {
+ h3 {
   color: #1e293b;
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 p {
   color: #475569;
   font-size: 15px;
   line-height: 1.7;
+  text-align: center;
 }
+
 
 .about {
   text-align: center;
@@ -75,7 +79,7 @@ p {
 
 .link-button {
   display: block;
-  background-color: #4f46e5;
+  background-color: #2e6596;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -87,17 +91,47 @@ p {
 }
 
 .link-button:hover {
-  background-color: #3730a3;
+  background-color: #032969;
   transform: translateY(-3px);
 }
 
 .skills ul {
-  padding-left: 20px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
 .skills li {
-  color: #475569;
+  color: #0b1329;
   font-size: 15px;
   margin-bottom: 10px;
   line-height: 1.5;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 5px;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+footer p{
+  text-align: center;
+  color: #22222a;
+  font-size: 14px;
 }
